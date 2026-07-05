@@ -1,0 +1,52 @@
+{
+  "base": "https://data.wanmei.com/csgo",
+  "api_base": "https://esports.wanmei.com",
+  "sign_secret": "828a59393861babc4a27e23f87fc77ab8dc9347dc6550c5e7e51e9b1af2de812",
+  "total_endpoints": 6,
+  "endpoints": {
+    "GET /apg/eventcenter/csgo/getMatchList": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/getMatchList",
+      "query": {
+        "matchTime": "2026-07-05 00:00:00"
+      }
+    },
+    "GET /apg/eventcenter/csgo/team/rank": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/team/rank",
+      "query": {
+        "page": "1",
+        "pageSize": "10",
+        "type": "0"
+      }
+    },
+    "GET /apg/eventcenter/csgo/event/getEventList": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/event/getEventList",
+      "query": {
+        "pageNum": "1",
+        "pageSize": "10",
+        "darkType": "1",
+        "eventSubType": "5"
+      }
+    },
+    "GET /apg/eventcenter/csgo/player/mvp/top": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/player/mvp/top",
+      "query": {}
+    },
+    "GET /apg/eventcenter/csgo/player/radar/home": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/player/radar/home",
+      "query": {}
+    },
+    "GET /apg/eventcenter/csgo/player/transfer": {
+      "method": "GET",
+      "path": "/apg/eventcenter/csgo/player/transfer",
+      "query": {
+        "pageNum": "1",
+        "pageSize": "10"
+      }
+    }
+  }
+}

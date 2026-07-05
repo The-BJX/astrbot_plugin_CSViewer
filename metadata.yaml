@@ -1,0 +1,6 @@
+name: CSViewer # 插件唯一识别名，以 astrbot_plugin_ 前缀开头
+display_name: CSViewer # 用于展示的名字，可以是方便人类阅读的名字（需要版本 >= v4.5.0，低版本不会报错，请放心填写）
+desc: 提供tools让bot可以了解最近CS电竞的状况 # 插件简短描述
+version: v1.0.4
+author: Sug4rNYa # 作者
+repo:  # 插件的仓库地址

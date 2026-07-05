@@ -1,0 +1,8 @@
+# 自动生成的API配置（含会话cookie，每次运行discover.py会变）
+apis.json
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+.cache/
